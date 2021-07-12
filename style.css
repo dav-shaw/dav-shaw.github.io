@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+:root {
+    --font-playfair: 'Playfair Display', serif;
+}
+
+.font-playfair {
+    font: normal 400 18px var(--font-libre);
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    max-width: 600px;
+}
+
+nav {
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+#icon {
+    color: black;
+}
+
+a:link {
+    color: #e0afa0;
+}
+
+a:visited {
+    color: #e0afa0;
+}
+
+#header {
+    font-family: var(--font-playfair);
+    background-color: #fdeeee;
+    padding: 10px 10px;
+    color: Black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.header.shadow {
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+#body {
+    font-family: var(--font-playfair);
+    width: 100%;
+    background-color: #fdeeee;
+    color: black;
+    padding: 50px 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.section {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#tree {
+    text-align: center;
+}
